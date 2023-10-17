@@ -1,0 +1,18 @@
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1620px;
+    margin: 0 auto;
+    background-color:rgb(6, 5, 6);
+    z-index: 0;
+}
+
+.body-bg{
+    background-color: rgb(6, 5, 6);
+}
+.cards{
+    z-index: 0;
+}
+

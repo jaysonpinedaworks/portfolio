@@ -1,0 +1,14 @@
+.carousel-container{
+    height: auto;
+    width: 1200px;
+    padding-top: 75px;
+    margin: 0 auto;
+}
+.Carousel.Item{
+    margin: 0 auto;
+}
+
+.carouselImg{
+    height: 100%;
+    width: 100%;
+}

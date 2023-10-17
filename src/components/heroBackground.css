@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.mainBg{
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+.content{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 0;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.451);
+    z-index: 0;
+}
+.heroName {
+    font-size: 70px;
+    font-weight: 700;
+}
+.heroDesc{
+    font-size: 35px;
+    color: rgb(193, 193, 12);
+}
+.exploreBtn{
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(112, 112, 13);
+    font-weight: 600;
+    
+}
+.exploreBtn:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+@media screen and (max-width: 719px ) {
+
+    .heroName{
+        font-size: 45px;
+    }
+    .heroDesc{
+        font-size: 25px;
+    }
+
+}

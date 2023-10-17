@@ -1,0 +1,69 @@
+.client-care-container{
+    height: 800px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+}
+.customer-care-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.labelNames{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.emailContainer, .emailInputContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.addressInput{
+    width: 555px;
+}
+input{
+    height: 35px;
+}
+
+.psubmitButton{
+    height: 60px;
+    width: 150px;
+    border-radius: 12px;
+    border:none;
+    margin-top: 10px;
+}
+.psubmitButton:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+label{
+    color: white;
+    font-size: 18px;
+}
+
+.highlights-text{
+    color: rgb(240, 236, 11);
+    text-align: center;
+}
+.names,
+.eAddress,
+.mobileNumber,
+.fullAddress
+
+{
+color: white;
+font-size: 18px;
+}
+
+.contact-container{
+    padding-top: 80px;
+}

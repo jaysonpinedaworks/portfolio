@@ -1,0 +1,64 @@
+.footer-container{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 300px;
+}
+.layer{
+    display: flex;
+    flex-direction: column;
+}
+.first-layer{
+    /* border: 2px solid red; */
+    height: 80px;
+    width: 100%;
+}
+.second-layer{
+    /* border: 2px solid green; */
+    height: 210px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.second-part-one{
+    /* border: 2px solid wheat; */
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-part-two{
+    /* border: 2px solid wheat; */
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-part-three{
+    /* border: 2px solid wheat; */
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pFacebook, .pGithub, .pLinkedin{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.footerBG{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+}
+
+.footer-link{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
