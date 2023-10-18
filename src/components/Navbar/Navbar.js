@@ -15,7 +15,7 @@ const Navbar = () => {
         onClick={() => setIsMobile(false)}
         >
 
-            <Link to="/" className='home'>
+            <Link to="/home" className='home'>
                 <li>Home</li>
             </Link>
             <Link to="/about" className='about'>

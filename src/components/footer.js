@@ -26,7 +26,7 @@ const Footer = () => {
                 <div className='linkedIn'></div>
                 </div>
                 <div className='second-part-two'>
-                    <Link to="/" className='footer-link'>Home</Link>
+                    <Link to="/home" className='footer-link'>Home</Link>
                     <Link to="about" className='footer-link'>About</Link>
                     <Link to="contact" className='footer-link'>Contact</Link>
                     
